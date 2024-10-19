@@ -11,7 +11,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "webpack"
+    "start": "webpack serve"
   },
   "author": "",
   "license": "ISC",
