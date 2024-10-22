@@ -6,4 +6,4 @@ for (let i = 0; i < 10; i++) {
   const name = faker.commerce.productName();
   products += `<div>${name}</div>`;
 }
-document.querySelector("#products").innerHTML = products;
+document.querySelector("#product").innerHTML = products;

@@ -11,9 +11,9 @@ module.exports = {
     }),
     new ModuleFederationPlugin({
       name:"products",
-      fileName:"remoteEntry.js",
+      filename:"remoteEntry.js",
       exposes:{
-        ".ProductIndex":"./src/index"
+        "./ProductsIndex":"./src/index"
       }
     })
   ],
